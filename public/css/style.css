@@ -8,7 +8,6 @@ body {
   background-repeat: no-repeat;
   display: inline-block;
   margin-bottom: 3.3%;
-  /*position: fixed;*/
 }
 
 ul {
@@ -63,16 +62,6 @@ h1#welcome_sign {
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;
   margin-right: 8%;
-}
-
-#lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {
-  float: left;
-  display: block;
-  margin: 1%;
-  padding: 1%;
-  text-align: center;
-  border: 2px solid white;
-  background-color: black;
 }
 
 

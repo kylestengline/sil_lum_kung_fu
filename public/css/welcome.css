@@ -9,10 +9,14 @@ body {
   padding-bottom: 3px;
 }
 
+h1, h2, h3, a {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 100;
+}
+
 a {
   text-decoration: none;
   -webkit-transition: all 1s;
-  font-family: 'PT Sans', sans-serif;
 }
 
 a:hover {
@@ -32,9 +36,6 @@ a:hover {
   padding-left: 10px;
   padding-bottom: 2px;
   padding-top: 2px;
-  font-family: 'PT Sans', sans-serif;
-
-
 }
 
 #sil_lum_kung_fu {

@@ -11,7 +11,9 @@ body {
 }
 
 h1, h2, h3, a {
+  font-family: 'PT Sans', sans-serif;
   font-weight: 100;
+}
 }
 
 #about_school, #about_title {
@@ -36,7 +38,6 @@ h1, h2, h3, a {
 h3#about_us_text {
   padding-left: 1%;
   padding-right: 1%;
-  font-family: 'PT Sans', sans-serif;
 }
 
 ul {
@@ -48,7 +49,6 @@ a {
   padding: 14px;
   color: #E32924;
   -webkit-transition: all 1s;
-  font-family: 'PT Sans', sans-serif;
 }
 
 a:hover {

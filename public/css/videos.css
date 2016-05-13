@@ -3,37 +3,35 @@ body {
   background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(/img/1_14.JPG);
+    ), url(/img/Sifu_1.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
   margin-bottom: 3.3%;
-  /*position: fixed;*/
 }
 
 h1, h2, h3, a {
-  font-family: 'PT Sans', sans-serif;
   font-weight: 100;
+  font-family: 'PT Sans', sans-serif;
+  color: #E32924;
 }
 
-#contact {
-  margin-top: 5%;
-  margin-left: 67.5%;
-  background: rgba(0, 0, 0, 0.7);
-  display: inline-block;
-  color: #E32924;
-  padding: .5%;
-}
-
-#contact_info {
-  margin-left: 50%;
-  margin-right: 5%;  
-  background: rgba(0, 0, 0, 0.7);
-  display: inline-block;
-  color: #E32924;
-  padding-right: 2%;
-  padding-left: 2%;
+#lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {
+  float: left;
+  display: block;
+  margin: 1%;
+  padding: 1%;
   text-align: center;
+  border: 2px solid white;
+  background-color: black;
+}
+
+#vid_container {
+  margin-left: 1.5%;
+}
+
+ul {
+  padding: 0;
 }
 
 a {
@@ -50,8 +48,7 @@ a:hover {
 }
 
 div#links_to_pages {
-  margin-top: 12.5%;
-  margin-left: 30%;
+  margin-top: 5%;
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;
 }
