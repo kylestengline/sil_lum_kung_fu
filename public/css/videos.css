@@ -17,6 +17,13 @@ h1, h2, h3, a {
   animation: fadein 4s;
 }
 
+h1 {
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  padding-right: 1%;
+  padding-left: 1%;
+}
+
 #lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {
   float: left;
   display: block;
