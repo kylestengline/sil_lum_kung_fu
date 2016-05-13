@@ -1,0 +1,72 @@
+body {
+  background-color: #222;
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2), 
+      rgba(0, 0, 0, 0.2)
+    ), url(/img/staff.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: inline-block;
+  /*position: fixed;*/
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+  margin-left: 49%;
+  -webkit-transition: all 1s;
+}
+
+a:hover {
+  color: blue;
+  -webkit-transition: all 1s;
+}
+
+div#links_to_pages {
+  margin-top: 2%;
+  margin-bottom: 21.5%;
+}
+
+h1, h2, h3 {
+  color: white;
+  font-weight: 100;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-style: sans-serif, Helvetica;
+}
+
+h1#welcome_sign {
+  margin-top: 5%;
+  margin-left: 55%;
+  padding-right: 4%;
+  padding-left: 0%;
+
+}
+
+#welcome_page {
+  margin-left: 50%;
+  margin-top: 2%;
+  margin-top: 2%;
+}
+
+#links_to_pages {
+  margin: 0 auto;
+}
+
+#lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {
+  float: left;
+  display: block;
+  margin: 1%;
+  padding: 1%;
+  text-align: center;
+  border: 2px solid white;
+  background-color: black;
+}
+
+
+
+
+
+

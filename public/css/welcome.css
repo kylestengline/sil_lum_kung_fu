@@ -1,0 +1,43 @@
+body {
+  background-color: #222;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.4), 
+      rgba(255, 255, 255, 0.4)
+    ), url(/img/school.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 3px;
+}
+
+a {
+  text-decoration: none;
+  -webkit-transition: all 1s;
+}
+
+a:hover {
+  color: blue;
+  -webkit-transition: all 1s;
+}
+
+#welcome_sign {
+  color: white;
+  font-weight: 200;
+  cursor: pointer;
+  margin-bottom: 2%;
+  font-size: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: inline-block;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+#sil_lum_kung_fu {
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1;  }
+}
