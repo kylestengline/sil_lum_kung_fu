@@ -1,0 +1,70 @@
+body {
+  background-color: #222;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, 0.1)
+    ), url(/img/Sifu_Sword.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /*display: inline-block;*/
+  margin-bottom: 6.4%;
+}
+
+h1, h2, h3, a {
+  font-weight: 100;
+}
+
+#about_school, #about_title {
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  color: #E32924;
+  padding: 5px;
+  text-align: center;
+  animation: fadein 3s;
+}
+
+#about_title {
+  margin-left: 40%;
+  padding: 10px;
+}
+
+#about_school {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+h3#about_us_text {
+  padding-left: 1%;
+  padding-right: 1%;
+  font-family: 'PT Sans', sans-serif;
+}
+
+ul {
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+  padding: 14px;
+  color: #E32924;
+  -webkit-transition: all 1s;
+  font-family: 'PT Sans', sans-serif;
+}
+
+a:hover {
+  color: blue;
+  -webkit-transition: all 1s;
+}
+
+div#links_to_pages {
+  margin-top: 21.3%;
+  margin-left: 30%;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  animation: fadein 3s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1;  }
+}

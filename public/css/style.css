@@ -1,22 +1,26 @@
 body {
   background-color: #222;
   background: linear-gradient(
-      rgba(0, 0, 0, 0.2), 
-      rgba(0, 0, 0, 0.2)
-    ), url(/img/staff.jpg);
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, 0.1)
+    ), url(/img/staff.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
+  margin-bottom: 3.3%;
   /*position: fixed;*/
+}
+
+ul {
+  padding: 0px;
 }
 
 a {
   text-decoration: none;
-  display: inline-block;
-  padding: 10px;
-  color: white;
-  margin-left: 49%;
+  padding: 14px;
+  color: #E32924;
   -webkit-transition: all 1s;
+  font-family: 'PT Sans', sans-serif;
 }
 
 a:hover {
@@ -25,34 +29,40 @@ a:hover {
 }
 
 div#links_to_pages {
-  margin-top: 2%;
-  margin-bottom: 21.5%;
+  margin-top: 24%;
+  margin-left: 30%;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
 }
 
 h1, h2, h3 {
-  color: white;
+  color: rgb(227, 41, 36);
   font-weight: 100;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 2%;
+  padding-right: 3%;
   font-style: sans-serif, Helvetica;
+  display: inline-block;
+  font-family: 'PT Sans', sans-serif;
+}
+
+h3#intro_info {
+  padding-left: 3%;
+  text-align: center;
 }
 
 h1#welcome_sign {
   margin-top: 5%;
-  margin-left: 55%;
-  padding-right: 4%;
-  padding-left: 0%;
-
+  margin-left: 50%;
+  padding: .5%;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
 }
 
 #welcome_page {
   margin-left: 50%;
-  margin-top: 2%;
-  margin-top: 2%;
-}
-
-#links_to_pages {
-  margin: 0 auto;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  margin-right: 8%;
 }
 
 #lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {

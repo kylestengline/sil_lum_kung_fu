@@ -12,6 +12,7 @@ body {
 a {
   text-decoration: none;
   -webkit-transition: all 1s;
+  font-family: 'PT Sans', sans-serif;
 }
 
 a:hover {
@@ -20,17 +21,20 @@ a:hover {
 }
 
 #welcome_sign {
-  color: white;
+  color: #E32924;
   font-weight: 200;
   cursor: pointer;
   margin-bottom: 2%;
-  font-size: 30px;
+  font-size: 27px;
   background-color: rgba(0, 0, 0, 0.8);
   display: inline-block;
   padding-right: 10px;
   padding-left: 10px;
   padding-bottom: 2px;
   padding-top: 2px;
+  font-family: 'PT Sans', sans-serif;
+
+
 }
 
 #sil_lum_kung_fu {
