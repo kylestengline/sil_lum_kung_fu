@@ -10,6 +10,10 @@ body {
   margin-bottom: 6.4%;
 }
 
+div, h1 {
+  animation: fadein 3s;
+}
+
 h1, h2, h3, a, p {
   font-family: 'PT Sans', sans-serif;
   font-weight: 100;
@@ -28,6 +32,7 @@ h1, #class_schedule {
   padding-right: 10%;
   padding-left: 10%;
   text-align: center;
+  animation: fadein 3s;
 }
 
 h3 {
@@ -56,6 +61,11 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #FFFF66;
   -webkit-transition: all 1s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1;  }
 }

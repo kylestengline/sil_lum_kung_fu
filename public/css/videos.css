@@ -14,6 +14,7 @@ h1, h2, h3, a {
   font-weight: 100;
   font-family: 'PT Sans', sans-serif;
   color: #E32924;
+  animation: fadein 4s;
 }
 
 #lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {
@@ -22,12 +23,13 @@ h1, h2, h3, a {
   margin: 1%;
   padding: 1%;
   text-align: center;
-  border: 2px solid white;
+  border: 3px solid white;
   background-color: black;
 }
 
 #vid_container {
   margin-left: 1.5%;
+  animation: fadein 3s;
 }
 
 ul {
@@ -43,7 +45,7 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #FFFF66;
   -webkit-transition: all 1s;
 }
 
@@ -51,4 +53,9 @@ div#links_to_pages {
   margin-top: 5%;
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1;  }
 }

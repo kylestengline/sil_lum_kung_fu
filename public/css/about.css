@@ -13,7 +13,7 @@ body {
 h1, h2, h3, a {
   font-family: 'PT Sans', sans-serif;
   font-weight: 100;
-}
+  animation: fadein 3s;
 }
 
 #about_school, #about_title {
@@ -52,12 +52,12 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #FFFF66;
   -webkit-transition: all 1s;
 }
 
 div#links_to_pages {
-  margin-top: 21.3%;
+  margin-top: 20.7%;
   margin-left: 30%;
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;

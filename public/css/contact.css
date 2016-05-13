@@ -11,6 +11,10 @@ body {
   /*position: fixed;*/
 }
 
+div, #contact, a {
+    animation: fadein 3s;
+}
+
 h1, h2, h3, a {
   font-family: 'PT Sans', sans-serif;
   font-weight: 100;
@@ -26,6 +30,7 @@ h1, h2, h3, a {
 }
 
 #contact_info {
+  margin-top: 5%;
   margin-left: 50%;
   margin-right: 5%;  
   background: rgba(0, 0, 0, 0.7);
@@ -45,13 +50,18 @@ a {
 }
 
 a:hover {
-  color: blue;
+  color: #FFFF66;
   -webkit-transition: all 1s;
 }
 
 div#links_to_pages {
-  margin-top: 12.5%;
+  margin-top: 12.8%;
   margin-left: 30%;
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1;  }
 }
