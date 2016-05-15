@@ -5,11 +5,11 @@ module Sil_Lum_Kung_Fu
   class Server < Sinatra::Base
 
     get "/" do
-      erb :welcome_page
+      erb :index
     end
 
     get "/home" do 
-      erb :index
+      erb :welcome
     end
 
     get "/about" do
