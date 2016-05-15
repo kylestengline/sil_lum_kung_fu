@@ -7,7 +7,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   /*display: inline-block;*/
-  margin-bottom: 6.4%;
+  margin-bottom: 2.3%;
 }
 
 h1, h2, h3, a {
@@ -25,14 +25,15 @@ h1, h2, h3, a {
   animation: fadein 3s;
 }
 
-#about_title {
+/*#about_title {
   margin-left: 40%;
   padding: 10px;
-}
+}*/
 
 #about_school {
   margin-left: 15%;
   margin-right: 15%;
+  margin-top: 1.5%;
 }
 
 h3#about_us_text {
@@ -57,7 +58,7 @@ a:hover {
 }
 
 div#links_to_pages {
-  margin-top: 20.7%;
+  margin-top: 31.7%;
   margin-left: 30%;
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;
