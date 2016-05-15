@@ -77,6 +77,83 @@ h3#intro_info {
   from { opacity: 0; }
   to { opacity: 1;  }
 }
+/*///////////////////////////*/
+/*      Media Queries        */
+/*///////////////////////////*/
+/*iPhone 5*/
+@media screen and (max-width: 330px) {
+  #welcome_page {
+    margin-top: 15%;
+    margin-left: 2%;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+    margin-right: 2%;
+  }
+
+  h3#intro_info {
+    padding-left: 4%;
+    padding-right: 4%;
+  }
+
+  body {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, 0.1)
+    ), url(/img/Sifu_1.jpg);
+    background-repeat: repeat-y;
+    display: inline-block;
+  }
+
+  a {
+    padding: 15px;
+  }
+
+  div#links_to_pages {
+    margin-top: 55%;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+}
+
+
+
+/*iPhone 6*/
+@media screen and (max-width: 375px) {
+  #welcome_page {
+    margin-top: 10%;
+    margin-left: 7%;
+    margin-right: 7%;
+    background: rgba(0, 0, 0, 0.7);
+    display: inline-block;
+  }
+
+  h3#intro_info {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  body {
+    background: linear-gradient(
+      rgba(255, 255, 255, 0.1), 
+      rgba(255, 255, 255, 0.1)
+    ), url(/img/Sifu_1.jpg);
+    background-repeat: repeat-y;
+    display: inline-block;
+  }
+
+  a {
+    padding: 15px;
+  }
+
+  div#links_to_pages {
+    margin-top: 40%;
+    margin-left: 25%;
+    margin-right: 30%;
+    text-align: center;
+  }
+}
 
 
 
