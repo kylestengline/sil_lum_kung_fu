@@ -1,5 +1,5 @@
 body {
-  background-color: #222;
+  /*background-color: #222;*/
   background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
@@ -69,3 +69,66 @@ div#links_to_pages {
   from { opacity: 0; }
   to { opacity: 1;  }
 }
+
+/*///////////////////////////*/
+/*      Media Queries        */
+/*///////////////////////////*/
+
+/*iPhone 5*/
+@media screen and (max-width: 330px) {
+  
+  #about_school {
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-left: 2%;
+  }
+
+  body {
+    background-color: #222;
+    max-width: 100%;
+    background-size: center; 
+  }
+
+  div#links_to_pages {
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  a {
+    padding: 5px;
+    display: block;
+  }
+
+}
+
+/*iPhone 6*/
+  @media screen and (max-width: 375px) {
+    #about_school {
+      margin-top: 5%;
+      margin-right: 2%;
+      margin-left: 2%;
+    }
+
+    body {
+      background-color: #222;
+      max-width: 100%;
+      background-size: center; 
+    }
+
+    div#links_to_pages {
+      margin-top: 20%;
+      margin-left: 30%;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+
+    a {
+      padding: 5px;
+      display: block;
+    }
+  }
+
+
+

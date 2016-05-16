@@ -69,3 +69,55 @@ a:hover {
   from { opacity: 0; }
   to { opacity: 1;  }
 }
+
+
+/*///////////////////////////*/
+/*      Media Queries        */
+/*///////////////////////////*/
+/*iPhone 5*/
+@media screen and (max-width: 330px) {
+  a {
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+  }
+
+  div#links_to_pages {
+    text-align: center;
+    margin-left: -10%;
+    margin-top: 20%;
+  }
+
+  ul {
+    padding: 0px;
+  }
+
+  #class_schedule {
+    margin-right: 10%;
+  }
+}
+
+/*iPhone 6*/
+@media screen and (max-width: 375px) {
+  a {
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+  }
+
+  div#links_to_pages {
+    text-align: center;
+    margin-left: 0%;
+    margin-top: 20%;
+  }
+
+  ul {
+    padding: 0px;
+  }
+
+  #class_schedule {
+    margin-right: 0%;
+  }
+}

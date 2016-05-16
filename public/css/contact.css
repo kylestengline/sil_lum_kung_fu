@@ -65,3 +65,61 @@ div#links_to_pages {
   from { opacity: 0; }
   to { opacity: 1;  }
 }
+
+
+/*///////////////////////////*/
+/*      Media Queries        */
+/*///////////////////////////*/
+/*iPhone 5*/
+@media screen and (max-width: 330px) {
+  
+  div#links_to_pages {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #contact_info {
+    margin-left: 5%;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  a {
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+  }
+}
+
+/*iPhone 6*/
+@media screen and (max-width: 375px) {
+
+  div#links_to_pages {
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  #contact_info {
+    margin-left: 5%;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  a {
+    padding: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    display: block;
+  }
+
+
+}
+
+
+
+

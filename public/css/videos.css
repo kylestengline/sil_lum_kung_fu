@@ -66,3 +66,99 @@ div#links_to_pages {
   from { opacity: 0; }
   to { opacity: 1;  }
 }
+
+/*///////////////////////////*/
+/*      Media Queries        */
+/*///////////////////////////*/
+/*iPhone 5*/
+@media screen and (max-width: 330px) {
+  
+  #vid_container {
+    display: inline-block;
+  }
+
+  #lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {
+    height: 230px;
+    width: 290px;
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+
+  body {
+    padding: 0px;
+  }
+
+  a {
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  iframe {
+    max-width: 100%;
+    width: 290px;
+    height: 170px;
+    position: relative;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h1 {
+    padding: 1%;
+    margin-right: 3%;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+}
+
+/*iPhone 6 ///////// Need to fix this. Not centered on page.*/
+@media screen and (max-width: 375px) {
+  
+  #vid_container {
+    display: inline-block;
+  }
+
+  #lien_bu_chuan, #qi_mei_gun, #yang_style_tai_chi, #ten_pattern_fist {
+    height: 230px;
+    width: 290px;
+    display: inline-block;
+    max-width: 100%;
+    margin-top: 5%;
+    margin-left: 2%;
+  }
+
+  body {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  a {
+    display: block;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  iframe {
+    max-width: 100%;
+    width: 290px;
+    height: 170px;
+    position: relative;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h1 {
+    padding: 1%;
+    margin-right: 3%;
+    margin-left: 5%;
+    font-size: 25px;
+  }
+}
