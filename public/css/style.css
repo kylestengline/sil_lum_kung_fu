@@ -103,7 +103,7 @@ h3#intro_info {
     background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(/img/Sifu_1.jpg);
+    ), url(../img/Sifu_1.jpg);
     background-repeat: repeat-y;
   }
 
@@ -146,7 +146,7 @@ h3#intro_info {
     background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(/img/Sifu_1.jpg);
+    ), url(../img/Sifu_1.jpg);
     background-repeat: repeat-y;
   }
 
