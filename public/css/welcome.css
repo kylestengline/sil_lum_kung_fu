@@ -3,7 +3,7 @@ body {
   background: linear-gradient(
       rgba(255, 255, 255, 0.4), 
       rgba(255, 255, 255, 0.4)
-    ), url(/img/school.JPG);
+    ), url(../img/school.JPG);
   background-size: cover;
   background-repeat: no-repeat;
   padding-bottom: 3px;
