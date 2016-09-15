@@ -6,7 +6,6 @@ body {
     ), url(/img/1_6.JPG);
   background-size: cover;
   background-repeat: no-repeat;
-  /*display: inline-block;*/
   margin-bottom: 6.4%;
 }
 
@@ -59,6 +58,10 @@ a {
   color: #E32924;
   -webkit-transition: all 1s;
 }
+
+  ul {
+    padding: 0px;
+  }
 
 a:hover {
   color: #FFFF66;
