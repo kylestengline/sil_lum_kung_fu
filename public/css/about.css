@@ -108,6 +108,10 @@ div#links_to_pages {
     display: block;
   }
 
+  a#videos {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
 }
 
 /*iPhone 6*/
@@ -130,19 +134,24 @@ div#links_to_pages {
     max-width: 100%;
   }
 
-    div#links_to_pages {
-      margin-top: 15%;
-      margin-left: 22%;
-      margin-bottom: 25px;
-      text-align: center;
-    }
+  div#links_to_pages {
+    margin-top: 15%;
+    margin-left: 22%;
+    margin-bottom: 25px;
+    text-align: center;
+  }
 
-    a {
-      padding: 7px;
-      padding-left: 20%;
-      padding-right: 20%; 
-      display: block;
-    }
+  a {
+    padding: 7px;
+    padding-left: 20%;
+    padding-right: 20%; 
+    display: block;
+  }
+
+  a#videos {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
 }
 
 
