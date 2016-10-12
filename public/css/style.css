@@ -3,12 +3,11 @@ body {
   background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(/img/staff.jpg);
+    ), url(../img/staff.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
   margin-bottom: 7.3%;
-  /*position: fixed;*/
 }
 
 div, h1 {
@@ -78,14 +77,12 @@ h3#intro_info {
   to { opacity: 1;  }
 }
 
-
-
-
 /*///////////////////////////*/
 /*      Media Queries        */
 /*///////////////////////////*/
 /*iPhone 5*/
 @media screen and (max-width: 330px) {
+
   #welcome_page {
     margin-top: 15%;
     margin-left: 2%;
@@ -103,12 +100,14 @@ h3#intro_info {
     background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(../img/Sifu_1.jpg);
+    ), url(../img/school.JPG);
     background-repeat: repeat-y;
   }
 
   a {
-    padding: 5px;
+    padding: 7px;
+    padding-left: 20%;
+    padding-right: 20%; 
   }
 
   a#videos {
@@ -122,12 +121,11 @@ h3#intro_info {
     margin-right: 5%;
     text-align: center;
   }
-
 }
 
-
-
+/*///////////////////////////*/
 /*iPhone 6*/
+/*///////////////////////////*/
 @media screen and (max-width: 375px) {
   #welcome_page {
     margin-top: 10%;
@@ -146,12 +144,13 @@ h3#intro_info {
     background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(../img/Sifu_1.jpg);
-    background-repeat: repeat-y;
+    ), url(../img/school.JPG);
   }
 
   a {
-    padding: 5px;
+    padding: 7px;
+    padding-left: 20%;
+    padding-right: 20%; 
     display: block;
   }
 
@@ -160,17 +159,11 @@ h3#intro_info {
     padding-right: 30px;
   }
 
-
   div#links_to_pages {
-    margin-top: 40%;
-    margin-left: 25%;
-    margin-right: 30%;
+    margin-top: 25%;
+    margin-left: 24%;
+    margin-right: 7%;
     text-align: center;
   }
 }
-
-
-
-
-
 

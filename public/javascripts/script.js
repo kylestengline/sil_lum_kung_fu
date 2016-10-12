@@ -2,8 +2,6 @@
 
 $(document).ready(function() {
   console.log("loaded");
-
-
   setTimeout(function() {
     $("#welcome_sign").fadeOut(2000); 
     setTimeout(function() {
@@ -13,7 +11,4 @@ $(document).ready(function() {
     }, 1700);  
     // ends first setTimeout
   }, 3500);
-
-  
-
 });

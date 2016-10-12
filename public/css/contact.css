@@ -3,12 +3,11 @@ body {
   background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(/img/1_14.jpg);
+    ), url(../img/1_14.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   display: inline-block;
   margin-bottom: 3.3%;
-  /*position: fixed;*/
 }
 
 div, #contact, a {
@@ -73,9 +72,22 @@ div#links_to_pages {
 /*iPhone 5*/
 @media screen and (max-width: 330px) {
   
+  body {
+    background-color: #222;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.1)
+      ), url(../img/school.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 3.3%;
+  }
+
   div#links_to_pages {
     text-align: center;
     margin-bottom: 25px;
+    margin-left: 80px;
   }
 
   #contact_info {
@@ -87,9 +99,9 @@ div#links_to_pages {
   }
 
   a {
-    padding: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 7px;
+    padding-right: 25px;
+    padding-left: 25px;
     display: block;
   }
 }
@@ -97,9 +109,22 @@ div#links_to_pages {
 /*iPhone 6*/
 @media screen and (max-width: 375px) {
 
+  body {
+    background-color: #222;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.1)
+      ), url(../img/school.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-bottom: 3.3%;
+  }
+
   div#links_to_pages {
     text-align: center;
     margin-bottom: 25px;
+    margin-left: 80px;
   }
 
   #contact_info {
@@ -111,15 +136,12 @@ div#links_to_pages {
   }
 
   a {
-    padding: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 7px;
+    padding-right: 25px;
+    padding-left: 25px;
     display: block;
   }
 
 
 }
-
-
-
 

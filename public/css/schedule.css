@@ -3,7 +3,7 @@ body {
   background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(/img/1_6.jpg);
+    ), url(../img/1_6.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 6.4%;
@@ -79,10 +79,21 @@ a:hover {
 /*///////////////////////////*/
 /*iPhone 5*/
 @media screen and (max-width: 330px) {
+  body {
+    background-color: #222;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.1)
+      ), url(../img/school.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6.4%;
+  }
+
   a {
-    padding: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
     display: block;
   }
 
@@ -103,10 +114,22 @@ a:hover {
 
 /*iPhone 6*/
 @media screen and (max-width: 375px) {
+
+  body {
+    background-color: #222;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.1)
+      ), url(../img/school.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6.4%;
+  }
+
   a {
-    padding: 5px;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 7px;
+    padding-right: 30px;
+    padding-left: 30px;
     display: block;
   }
 
