@@ -3,7 +3,7 @@ body {
   background: linear-gradient(
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
-    ), url(../img/school.JPG);
+    ), url(../img/Sifu_Sword.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 2.3%;
@@ -71,6 +71,17 @@ div#links_to_pages {
 /*iPhone 5*/
 @media screen and (max-width: 330px) {
   
+  body {
+    background-color: #222;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.1)
+      ), url(../img/school.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6.4%;
+  }
+
   #about_school {
     margin-top: 5%;
     margin-right: 2%;
@@ -107,11 +118,17 @@ div#links_to_pages {
       margin-left: 2%;
     }
 
-    body {
-      background-color: #222;
-      max-width: 100%;
-      background-size: center; 
-    }
+  body {
+    background-color: #222;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.1), 
+        rgba(255, 255, 255, 0.1)
+      ), url(../img/school.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 6.4%;
+    max-width: 100%;
+  }
 
     div#links_to_pages {
       margin-top: 15%;
