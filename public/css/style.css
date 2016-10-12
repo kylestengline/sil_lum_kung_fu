@@ -102,23 +102,24 @@ h3#intro_info {
       rgba(255, 255, 255, 0.1)
     ), url(../img/school.JPG);
     background-repeat: repeat-y;
+    max-width: 100%;
   }
 
   a {
     padding: 7px;
     padding-left: 20%;
     padding-right: 20%; 
+    display: block;
   }
 
   a#videos {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 
   div#links_to_pages {
-    margin-top: 55%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 25%;
+    margin-left: 23%;
     text-align: center;
   }
 }
@@ -145,6 +146,7 @@ h3#intro_info {
       rgba(255, 255, 255, 0.1), 
       rgba(255, 255, 255, 0.1)
     ), url(../img/school.JPG);
+    max-width: 100%;
   }
 
   a {
@@ -155,14 +157,13 @@ h3#intro_info {
   }
 
   a#videos {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
   }
 
   div#links_to_pages {
     margin-top: 25%;
-    margin-left: 24%;
-    margin-right: 7%;
+    margin-left: 23%;
     text-align: center;
   }
 }
