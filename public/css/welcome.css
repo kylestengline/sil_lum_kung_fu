@@ -24,21 +24,20 @@ a:hover {
 }
 
 #welcome_sign {
-  color: #E32924;
+  color: #222;
   font-weight: 200;
   cursor: pointer;
   margin-bottom: 2%;
+  margin-top: 2%;
   font-size: 27px;
-  background-color: rgba(0, 0, 0, 0.8);
-  display: inline-block;
+  display: block;
   padding-right: 10px;
   padding-left: 10px;
-  padding-bottom: 2px;
-  padding-top: 2px;
 }
 
 #sil_lum_kung_fu {
   animation: fadein 3s;
+  margin-bottom: 30px;
 }
 
 @keyframes fadein {

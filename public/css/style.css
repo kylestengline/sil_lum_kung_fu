@@ -20,10 +20,11 @@ ul {
 
 a {
   text-decoration: none;
-  padding: 14px;
+  padding: 55px;
   color: #E32924;
   -webkit-transition: all 1s;
   font-family: 'PT Sans', sans-serif;
+  font-size: 18px;
 }
 
 a:hover {
@@ -32,11 +33,13 @@ a:hover {
 }
 
 div#links_to_pages {
-  margin-top: 24%;
-  margin-left: 30%;
+ /* margin-top: 24%;
+  margin-left: 30%;*/
   background: rgba(0, 0, 0, 0.7);
-  display: inline-block;
+  display: block;
   animation: fadein 3s;
+  padding: 10px;
+  text-align: center;
 }
 
 h1, h2, h3 {
@@ -70,6 +73,7 @@ h3#intro_info {
   background: rgba(0, 0, 0, 0.7);
   display: inline-block;
   margin-right: 8%;
+  margin-bottom: 25%;
 }
 
 @keyframes fadein {
