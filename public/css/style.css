@@ -20,7 +20,6 @@ ul {
 
 a {
   text-decoration: none;
-  padding: 55px;
   color: #E32924;
   -webkit-transition: all 1s;
   font-family: 'PT Sans', sans-serif;
@@ -30,16 +29,6 @@ a {
 a:hover {
   color: #FFFF66;
   -webkit-transition: all 1s;
-}
-
-div#links_to_pages {
- /* margin-top: 24%;
-  margin-left: 30%;*/
-  background: rgba(0, 0, 0, 0.7);
-  display: block;
-  animation: fadein 3s;
-  padding: 10px;
-  text-align: center;
 }
 
 h1, h2, h3 {
@@ -56,16 +45,6 @@ h3#intro_info {
   padding-left: 3%;
   text-align: center;
 }
-
-/*Not sure if I need this or not. Commented out the Welcome Sign.*/
-/*h1#welcome_sign {
-  margin-top: 5%;
-  margin-left: 50%;
-  padding: 0.5%;
-  background: rgba(0, 0, 0, 0.7);
-  display: inline-block;
-  text-align: center;
-}*/
 
 #welcome_page {
   margin-top: 7%;
@@ -121,10 +100,34 @@ h3#intro_info {
     padding-left: 50px;
   }
 
-  div#links_to_pages {
-    margin-top: 25%;
-    margin-left: 23%;
-    text-align: center;
+  .menu-btn div {
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;
+  }
+   
+  .menu-btn span {
+    display: block;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0,0,0);
+    z-index: 99;
+  }
+   
+  .responsive-menu{
+    display: none;
+  }
+   
+  .expand {
+    display: block !important; 
   }
 }
 
@@ -165,10 +168,34 @@ h3#intro_info {
     padding-left: 50px;
   }
 
-  div#links_to_pages {
-    margin-top: 25%;
-    margin-left: 23%;
-    text-align: center;
+  .menu-btn div {
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;
+  }
+   
+  .menu-btn span {
+    display: block;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0,0,0);
+    z-index: 99;
+  }
+   
+  .responsive-menu{
+    display: none;
+  }
+   
+  .expand {
+    display: block !important; 
   }
 }
 
