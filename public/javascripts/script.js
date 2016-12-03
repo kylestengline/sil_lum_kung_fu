@@ -15,5 +15,4 @@ $(document).ready(function() {
     }, 1700);  
     // ends first setTimeout
   }, 3500);
-
 });

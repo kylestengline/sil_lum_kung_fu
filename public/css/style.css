@@ -24,11 +24,26 @@ a {
   -webkit-transition: all 1s;
   font-family: 'PT Sans', sans-serif;
   font-size: 18px;
+  padding: 5px;
+  animation: none;
 }
 
 a:hover {
   color: #FFFF66;
   -webkit-transition: all 1s;
+}
+
+/*work on this*/
+div.responsive-menu {
+  margin-top: 5%;
+  margin-left: 5%;
+  background: rgba(0, 0, 0, 0.7);
+  display: inline-block;
+  width: 200px;
+}
+
+#schedule-li, #contact-li, #videos-li {
+  padding-top: 10px;
 }
 
 h1, h2, h3 {
@@ -121,13 +136,20 @@ h3#intro_info {
     background: rgb(0,0,0);
     z-index: 99;
   }
-   
+
+   /*change this, use as a base*/
   .responsive-menu{
     display: none;
+    max-height: 0;
+    background: #999;
+    width: 150px;
+    overflow: hidden;
+    transition:all .25s;
   }
    
   .expand {
     display: block !important; 
+    max-height: 300px;
   }
 }
 
@@ -190,12 +212,19 @@ h3#intro_info {
     z-index: 99;
   }
    
+   /*change this, use as a base*/
   .responsive-menu{
     display: none;
+    max-height: 0;
+    background: #999;
+    width: 150px;
+    overflow: hidden;
+    transition:all .25s;
   }
    
   .expand {
     display: block !important; 
+    max-height: 300px;
   }
 }
 
