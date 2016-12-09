@@ -21,6 +21,57 @@ h1.heading {
   color: white;
 }
 
+/* iPhone 6 */
+@media screen and (min-width: 375px) {
+  
+  aside.callout {
+    margin: 0 auto;
+    padding: 50px;
+    max-width: 100%;
+  }
+
+  iframe.videos {
+    width: 320px;
+    height: 250px;
+  }
+
+  div.portfolio-item {
+    height: 265px;
+    width: 330px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: -25px;
+  }
+
+  div.row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h1.heading, div.text-vertical-center h1 {
+    padding: 30px;
+  }
+
+  img.school-logo {
+    height: 200px;
+    width: 220px;
+  }
+
+  h4.contact-message {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+}
+
+@media screen and (min-width: 400px) {
+  iframe.videos {
+    width: 330px;
+    height: 250px;
+  }
+}
+
+/* END CUSTOM */
+
 p#about-our-style {
   font-size: 24px;
 }
