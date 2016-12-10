@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "firebase": "sillumkungfu",
     "public": "public"
   }
 }
