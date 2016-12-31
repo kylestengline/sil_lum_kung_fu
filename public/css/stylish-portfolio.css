@@ -21,6 +21,14 @@ h1.heading {
   color: white;
 }
 
+p.contact-message {
+  font-size: 20px;
+}
+
+ul.list-unstyled {
+  font-size: 18px;
+}
+
 /* iPhone 6 */
 @media screen and (max-width: 375px) {
   
@@ -57,9 +65,13 @@ h1.heading {
     width: 220px;
   }
 
-  h4.contact-message {
+  p.contact-message {
     padding-right: 25px;
     padding-left: 25px;
+  }
+
+  .header {
+    max-width: 100%;
   }
 }
 
