@@ -1,6 +1,8 @@
 {
   "hosting": {
-    "firebase": "sillumkungfu",
     "public": "public"
+  },
+  "database": {
+    "rules": "database.rules.json"
   }
 }
